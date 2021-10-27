@@ -1,7 +1,7 @@
 ***********************************************************************************
 ** download data files by running the following code.
 **********************************************************************************
-
+set more off
 
 
 * download zipped file with all data files and unzip.
