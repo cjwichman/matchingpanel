@@ -1,0 +1,56 @@
+"","varname","metric","FullSample","Matching"
+"1","junsep07","Mean Difference",-4.77595753337275,-0.453260435264987
+"2","junsep07","Standardized Mean Difference",-15.7057570697659,-1.49054890791313
+"3","junsep07","Mean Raw eQQ Difference",5.07056984813823,1.80045455445049
+"4","junsep07","Variance Ratio (Treat/Comp.)",0.347317456394016,1.17163566740989
+"5","junsep07","Kolmogrov-Smirnov Statistic",0.065163193547926,0.0615565398174094
+"6","mayoct06","Mean Difference",-8.32287271358902,-1.94999181132124
+"7","mayoct06","Standardized Mean Difference",-20.9280125432094,-4.90328934381702
+"8","mayoct06","Mean Raw eQQ Difference",8.4258833203424,2.60961409993513
+"9","mayoct06","Variance Ratio (Treat/Comp.)",0.534586295894593,1.07634912892914
+"10","mayoct06","Kolmogrov-Smirnov Statistic",0.0682592850833518,0.0758383801862063
+"11","marapr07","Mean Difference",1.52318738127455,2.2844097398488
+"12","marapr07","Standardized Mean Difference",13.0940684652522,19.6379105446893
+"13","marapr07","Mean Raw eQQ Difference",2.90580545492542,2.29136887756133
+"14","marapr07","Variance Ratio (Treat/Comp.)",0.0354134291720214,1.82020480993666
+"15","marapr07","Kolmogrov-Smirnov Statistic",0.138545414033972,0.10675223718702
+"16","fairmktvalue","Mean Difference",-97155.3081798611,-39600.4820475717
+"17","fairmktvalue","Standardized Mean Difference",-58.6927684374699,-23.9231593864894
+"18","fairmktvalue","Mean Raw eQQ Difference",97612.5434566338,42526.2270631836
+"19","fairmktvalue","Variance Ratio (Treat/Comp.)",0.498621776548545,1.17224195087573
+"20","fairmktvalue","Kolmogrov-Smirnov Statistic",0.315337412946271,0.27732079905993
+"21","ageofhome","Mean Difference",3.95751709607289,1.20425974495795
+"22","ageofhome","Standardized Mean Difference",30.0522315688749,9.14479757029051
+"23","ageofhome","Mean Raw eQQ Difference",5.0008139640047,1.67395823917563
+"24","ageofhome","Variance Ratio (Treat/Comp.)",2.33215045404978,1.42812180525091
+"25","ageofhome","Kolmogrov-Smirnov Statistic",0.182806760198823,0.0700533309228961
+"26","acres","Mean Difference",-0.0483732785863841,-0.0469667267093693
+"27","acres","Standardized Mean Difference",-4.61984883925423,-4.48551729824087
+"28","acres","Mean Raw eQQ Difference",0.0837703755190538,0.0801140576449242
+"29","acres","Variance Ratio (Treat/Comp.)",1.34866636264531,1.10310271504831
+"30","acres","Kolmogrov-Smirnov Statistic",0.121744137371876,0.186658230136491
+"31","pct_edu","Mean Difference",-0.131228300422895,-0.0710987631880785
+"32","pct_edu","Standardized Mean Difference",-89.2963202450939,-48.3802495819345
+"33","pct_edu","Mean Raw eQQ Difference",0.131635497732933,0.0716082496681535
+"34","pct_edu","Variance Ratio (Treat/Comp.)",4.40335155197116,1.98021577248579
+"35","pct_edu","Kolmogrov-Smirnov Statistic",0.531728999596632,0.351441742746091
+"36","pct_pov","Mean Difference",0.00674217740574539,0.0068986898955142
+"37","pct_pov","Standardized Mean Difference",18.6299089940309,19.0623825504723
+"38","pct_pov","Mean Raw eQQ Difference",0.00923273472490723,0.00946986177434631
+"39","pct_pov","Variance Ratio (Treat/Comp.)",2.01162915791911,1.11045692252481
+"40","pct_pov","Kolmogrov-Smirnov Statistic",0.159584164635305,0.307601916297568
+"41","percapincome","Mean Difference",-11979.199529009,-4915.21352989057
+"42","percapincome","Standardized Mean Difference",-131.937574471394,-54.1356164552001
+"43","percapincome","Mean Raw eQQ Difference",11978.2549516144,5201.65425291512
+"44","percapincome","Variance Ratio (Treat/Comp.)",0.731299788909191,1.48467885775328
+"45","percapincome","Kolmogrov-Smirnov Statistic",0.645280711470845,0.434601825906174
+"46","pct_rent","Mean Difference",-0.0631598038151951,-0.0158320975710511
+"47","pct_rent","Standardized Mean Difference",-45.5026639785695,-11.4060299800701
+"48","pct_rent","Mean Raw eQQ Difference",0.0657200003071876,0.0204987117060456
+"49","pct_rent","Variance Ratio (Treat/Comp.)",0.758402719174205,0.913715458768487
+"50","pct_rent","Kolmogrov-Smirnov Statistic",0.294980465139391,0.210431166952906
+"51","pct_white","Mean Difference",-0.0412660064049285,-0.0514095483179821
+"52","pct_white","Standardized Mean Difference",-24.3201023111324,-30.2981941744938
+"53","pct_white","Mean Raw eQQ Difference",0.0617706464894808,0.0586188183679017
+"54","pct_white","Variance Ratio (Treat/Comp.)",6.88487270930779,5.17316864251338
+"55","pct_white","Kolmogrov-Smirnov Statistic",0.213479715447127,0.196601283557805

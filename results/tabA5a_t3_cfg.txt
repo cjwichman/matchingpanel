@@ -1,0 +1,16 @@
+	(1)	(2)	(3)
+			cal=1
+VARIABLES	cal=0.5	cal=0.25	npretreat
+			
+t3post	-0.049	-0.101	-0.150
+	(0.066)	(0.097)	(0.096)
+post	0.275***	0.144*	0.388***
+	(0.054)	(0.076)	(0.089)
+Constant	8.027***	7.183***	8.514***
+	(0.008)	(0.011)	(0.011)
+			
+Observations	276,986	70,156	368,887
+R-squared	0.000	0.000	0.000
+Number of id	13,966	3,670	16,726
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			
