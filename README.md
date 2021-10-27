@@ -1,6 +1,6 @@
 # matching panel
 
-These are replication files for "A cautionary tale on using panel data estimators to measure program impacts" by Casey Wichman and Paul Ferraro, Economics Letters, 2017.
+These are replication files for ["A cautionary tale on using panel data estimators to measure program impacts"](https://www.sciencedirect.com/science/article/pii/S016517651630489X) by Casey Wichman and Paul Ferraro, Economics Letters, 2017.
 
 A few notes:
 * Data can be downloaded directly from https://caseyjwichman.com/data/matchingpaneldata.zip
