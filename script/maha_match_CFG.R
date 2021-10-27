@@ -31,7 +31,10 @@ cov.13 <- c("mayoct06", "marapr07", "fairmktvalue", "ageofhome", "acres", "pct_e
 # Covariate to test balance
 cov.1a <- c("junsep07", "mayoct06", "marapr07", "fairmktvalue", "ageofhome", "acres", "pct_edu", "pct_pov", "percapincome", "pct_rent", "pct_white")
 
-bs <- 0
+
+
+
+bs <- 0  ## set bs reps equal to zero. no need for balance tables for these results
 
 #################################################################
 #####Treatment3 vs GWINNETT & FULTON Control Group (Full Sample)

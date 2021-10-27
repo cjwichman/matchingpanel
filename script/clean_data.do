@@ -163,79 +163,7 @@ save "data/clean/cfg_clean_panel", replace
 
 
 
-*************************************************
-* Run some quick and dirty replications
-*************************************************
-use "data/clean/cfg_clean_panel", clear
-g t1post = treat1*post
-g t3post = treat3*post
 
-sort id yrmonth
-egen t = group(yrmonth)
-tab t
-g t_cobb = 0
-replace t_cobb = t if cobb==1
-g t_gwin = 0
-replace t_gwin = t if gwin==1
-g t_fulton = 0
-replace t_fulton = t if fulton==1
-g t_cf = 0
-replace t_cf = t if cobb==1 | fulton==1
-
-tab t_cobb, gen(tt_c)
-tab t_gwin, gen(tt_g)
-tab t_fulton, gen(tt_f)
-tab t_cf, gen(tt_cf)
-
-global time_county_fe "tt_c2-tt_c17 tt_g2-tt_g17 tt_f2-tt_f17"
-global tc_fe "tt_g2-tt_g17 tt_cf2-tt_cf17"
-
-* FEPD estimates using experimental sample
-xtreg water t1post t3post i.t ///
-	if treatment==1 | treatment==3 | treatment==4, fe robust
-	
-* TREATMENT 1
-* experimental
-xtreg water t1post i.t ///
-	if treatment==1 | treatment==4, fe robust
-
-* non-experimental -- gwinnett as control
-xtreg water t1post i.t ///
-	if treatment==1 | treatment==5, fe robust
-
-* non-experimental -- fulton as control
-xtreg water t1post i.t ///
-	if treatment==1 | treatment==6, fe robust	
-	
-* non-experimental -- gwinnett & fulton as control
-xtreg water t1post i.t ///
-	if treatment==1 | treatment==5 | treatment==6, fe robust	
-xtreg water t1post $tc_fe ///
-	if treatment==1 | treatment==5 | treatment==6, fe robust	
-xtreg water t1post $time_county_fe ///
-	if treatment==1 | treatment==5 | treatment==6, fe robust	
-
-
-* TREATMENT 3
-* experimental
-xtreg water t3post i.t ///
-	if treatment==3 | treatment==4, fe robust
-
-* non-experimental -- gwinnett as control
-xtreg water t3post i.t ///
-	if treatment==3 | treatment==5, fe robust
-
-* non-experimental -- fulton as control
-xtreg water t3post i.t ///
-	if treatment==3 | treatment==6, fe robust	
-	
-* non-experimental -- gwinnett & fulton as control
-xtreg water t3post i.t ///
-	if treatment==3 | treatment==5 | treatment==6, fe robust
-xtreg water t3post $tc_fe ///
-	if treatment==3 | treatment==5 | treatment==6, fe robust
-xtreg water t3post $time_county_fe ///
-	if treatment==3 | treatment==5 | treatment==6, fe robust	
 	
 
 
