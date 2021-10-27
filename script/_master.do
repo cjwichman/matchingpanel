@@ -7,7 +7,7 @@
 **
 ** 	Notes: 
 **	--Not the prettiest, but gets the job done.
-**  --Email wichman@gatech.edu if anything breaks.
+**	--Email wichman@gatech.edu if anything breaks.
 *********************************************************************************
 
 
@@ -46,7 +46,7 @@ do "script/clean_data.do"
 ******************************************************************
 
 
-* 3) Merge matched
+* 3) Combine matched samples with clean data sets. Matched samples are identified via sample weights.
 do "script/merge_matches_cfg.do"
 
 
